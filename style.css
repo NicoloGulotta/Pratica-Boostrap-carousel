@@ -1,0 +1,16 @@
+/* ResetPage */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img.avatarW{
+    width: 30px;
+    border-radius: 50%;
+}
+i.icon{
+    background-color:#FFEEDA ;
+}
+p{
+    margin: 0;
+}
