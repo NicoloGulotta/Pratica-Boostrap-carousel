@@ -65,17 +65,7 @@ span.carousel-control-prev {
 
 }
 
-a.carousel-control-next {
-    position: relative;
-    width: 50px;
-    background-color: black;
-}
 
-a.carousel-control-prev {
-    position: relative;
-    width: 50px;
-    background-color: black;
-}
 
 div.card:hover {
     transition: all 0.5s linear 0.1s;
@@ -84,15 +74,17 @@ div.card:hover {
     opacity: .9;
     box-shadow: 3px 1px 3px 2px rgb(143, 143, 143);
 }
+
 a.carousel-control-prev {
-position: relative;
-top: -230px;
-left: 200px;
-width: 70px;
-}
-a.carousel-control-next{
     position: relative;
+    width: 30px;
     top: -230px;
-    left: 200px;
-    width: 70px;
-    }
+    left: 30px;
+}
+
+a.carousel-control-next {
+    position: relative;
+    width: 30px;
+    top: -260px;
+    left: 1380px;
+}
